@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A91D9771744F64D0027BDFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A91D9761744F64D0027BDFA /* UIKit.framework */; };
+		6A91D9791744F64D0027BDFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A91D9781744F64D0027BDFA /* Foundation.framework */; };
+		6A91D97B1744F64D0027BDFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A91D97A1744F64D0027BDFA /* CoreGraphics.framework */; };
+		6A91D9811744F64D0027BDFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A91D97F1744F64D0027BDFA /* InfoPlist.strings */; };
+		6A91D9831744F64D0027BDFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D9821744F64D0027BDFA /* main.m */; };
+		6A91D9871744F64D0027BDFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D9861744F64D0027BDFA /* AppDelegate.m */; };
+		6A91D9891744F64D0027BDFA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A91D9881744F64D0027BDFA /* Default.png */; };
+		6A91D98B1744F64D0027BDFA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A91D98A1744F64D0027BDFA /* Default@2x.png */; };
+		6A91D98D1744F64D0027BDFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A91D98C1744F64D0027BDFA /* Default-568h@2x.png */; };
+		6A91D9901744F64D0027BDFA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A91D98E1744F64D0027BDFA /* MainStoryboard.storyboard */; };
+		6A91D9931744F64D0027BDFA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D9921744F64D0027BDFA /* MasterViewController.m */; };
+		6A91D9961744F64D0027BDFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D9951744F64D0027BDFA /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A91D9731744F64D0027BDFA /* Jackpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jackpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A91D9761744F64D0027BDFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A91D9781744F64D0027BDFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A91D97A1744F64D0027BDFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A91D97E1744F64D0027BDFA /* Jackpot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jackpot-Info.plist"; sourceTree = "<group>"; };
+		6A91D9801744F64D0027BDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A91D9821744F64D0027BDFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A91D9841744F64D0027BDFA /* Jackpot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jackpot-Prefix.pch"; sourceTree = "<group>"; };
+		6A91D9851744F64D0027BDFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A91D9861744F64D0027BDFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A91D9881744F64D0027BDFA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6A91D98A1744F64D0027BDFA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6A91D98C1744F64D0027BDFA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6A91D98F1744F64D0027BDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A91D9911744F64D0027BDFA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6A91D9921744F64D0027BDFA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6A91D9941744F64D0027BDFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6A91D9951744F64D0027BDFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A91D9701744F64D0027BDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A91D9771744F64D0027BDFA /* UIKit.framework in Frameworks */,
+				6A91D9791744F64D0027BDFA /* Foundation.framework in Frameworks */,
+				6A91D97B1744F64D0027BDFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A91D96A1744F64D0027BDFA = {
+			isa = PBXGroup;
+			children = (
+				6A91D97C1744F64D0027BDFA /* Jackpot */,
+				6A91D9751744F64D0027BDFA /* Frameworks */,
+				6A91D9741744F64D0027BDFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A91D9741744F64D0027BDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A91D9731744F64D0027BDFA /* Jackpot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A91D9751744F64D0027BDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A91D9761744F64D0027BDFA /* UIKit.framework */,
+				6A91D9781744F64D0027BDFA /* Foundation.framework */,
+				6A91D97A1744F64D0027BDFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A91D97C1744F64D0027BDFA /* Jackpot */ = {
+			isa = PBXGroup;
+			children = (
+				6A91D9851744F64D0027BDFA /* AppDelegate.h */,
+				6A91D9861744F64D0027BDFA /* AppDelegate.m */,
+				6A91D98E1744F64D0027BDFA /* MainStoryboard.storyboard */,
+				6A91D9911744F64D0027BDFA /* MasterViewController.h */,
+				6A91D9921744F64D0027BDFA /* MasterViewController.m */,
+				6A91D9941744F64D0027BDFA /* DetailViewController.h */,
+				6A91D9951744F64D0027BDFA /* DetailViewController.m */,
+				6A91D97D1744F64D0027BDFA /* Supporting Files */,
+			);
+			path = Jackpot;
+			sourceTree = "<group>";
+		};
+		6A91D97D1744F64D0027BDFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A91D97E1744F64D0027BDFA /* Jackpot-Info.plist */,
+				6A91D97F1744F64D0027BDFA /* InfoPlist.strings */,
+				6A91D9821744F64D0027BDFA /* main.m */,
+				6A91D9841744F64D0027BDFA /* Jackpot-Prefix.pch */,
+				6A91D9881744F64D0027BDFA /* Default.png */,
+				6A91D98A1744F64D0027BDFA /* Default@2x.png */,
+				6A91D98C1744F64D0027BDFA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A91D9721744F64D0027BDFA /* Jackpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A91D9991744F64D0027BDFA /* Build configuration list for PBXNativeTarget "Jackpot" */;
+			buildPhases = (
+				6A91D96F1744F64D0027BDFA /* Sources */,
+				6A91D9701744F64D0027BDFA /* Frameworks */,
+				6A91D9711744F64D0027BDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jackpot;
+			productName = Jackpot;
+			productReference = 6A91D9731744F64D0027BDFA /* Jackpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A91D96B1744F64D0027BDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = WM_BN;
+			};
+			buildConfigurationList = 6A91D96E1744F64D0027BDFA /* Build configuration list for PBXProject "Jackpot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A91D96A1744F64D0027BDFA;
+			productRefGroup = 6A91D9741744F64D0027BDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A91D9721744F64D0027BDFA /* Jackpot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A91D9711744F64D0027BDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A91D9811744F64D0027BDFA /* InfoPlist.strings in Resources */,
+				6A91D9891744F64D0027BDFA /* Default.png in Resources */,
+				6A91D98B1744F64D0027BDFA /* Default@2x.png in Resources */,
+				6A91D98D1744F64D0027BDFA /* Default-568h@2x.png in Resources */,
+				6A91D9901744F64D0027BDFA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A91D96F1744F64D0027BDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A91D9831744F64D0027BDFA /* main.m in Sources */,
+				6A91D9871744F64D0027BDFA /* AppDelegate.m in Sources */,
+				6A91D9931744F64D0027BDFA /* MasterViewController.m in Sources */,
+				6A91D9961744F64D0027BDFA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A91D97F1744F64D0027BDFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A91D9801744F64D0027BDFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A91D98E1744F64D0027BDFA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A91D98F1744F64D0027BDFA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A91D9971744F64D0027BDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A91D9981744F64D0027BDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A91D99A1744F64D0027BDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jackpot/Jackpot-Prefix.pch";
+				INFOPLIST_FILE = "Jackpot/Jackpot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A91D99B1744F64D0027BDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jackpot/Jackpot-Prefix.pch";
+				INFOPLIST_FILE = "Jackpot/Jackpot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A91D96E1744F64D0027BDFA /* Build configuration list for PBXProject "Jackpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A91D9971744F64D0027BDFA /* Debug */,
+				6A91D9981744F64D0027BDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A91D9991744F64D0027BDFA /* Build configuration list for PBXNativeTarget "Jackpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A91D99A1744F64D0027BDFA /* Debug */,
+				6A91D99B1744F64D0027BDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A91D96B1744F64D0027BDFA /* Project object */;
+}
